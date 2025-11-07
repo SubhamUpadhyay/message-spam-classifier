@@ -1,0 +1,39 @@
+# Pickle files
+*.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# NLTK data
+nltk_data/
