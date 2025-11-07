@@ -7,8 +7,9 @@ import gdown
 import os
 
 # Download NLTK data
-nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 
 from nltk.corpus import stopwords
 
